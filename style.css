@@ -11,13 +11,18 @@ body{
     padding-top: 8rem;
 }
 
-li{
+/* li{
     list-style: none;
-}
+} */
 
 a{
     text-decoration: none;
     color: inherit;
+}
+
+.ProjectItem{
+    margin: 1rem;
+    font-size: 1.5rem;
 }
 
 .Header{
@@ -74,8 +79,8 @@ a{
 }
 
 .LogoImage{
-    width: 80%;
-    height: 80%;
+    max-width: 40%;
+    max-height: 40%;
 }
 
 header{
